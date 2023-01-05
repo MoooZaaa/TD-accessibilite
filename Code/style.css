@@ -1,0 +1,16 @@
+.button {
+    border-color: black;
+}
+
+.button:focus {
+    color: white;
+    background-color: black;
+}
+
+body {
+    background-color: black
+}
+
+.img_grp {
+    
+}
