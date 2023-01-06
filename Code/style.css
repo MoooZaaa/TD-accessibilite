@@ -8,6 +8,8 @@ body {
 
 .text-article {
     color: black;
+    font-size: 25px;
+    margin-bottom: 5px;
 }
 
 .title {
@@ -34,6 +36,7 @@ body {
 
 .article {
     background-color: white;
+    margin: 0px 350px;
 }
 
 .footer-text {
@@ -44,19 +47,29 @@ body {
     color: white;
 }
 
-.video_1 {
-    margin-left: 25%;
-}
-
-.video_2 {
-    margin-left: 25%;
-}
-
-.video_3 {
+.videos {
     margin-left: 25%;
 }
 
 .icon {
     width: 100px;
     height: 100px;
+}
+
+.album_title {
+    color: white;
+}
+
+.img_grp {
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.text-description {
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.album_title {
+    margin-top: 5px;
 }

@@ -23,51 +23,78 @@
         <h1 class="intro-text">Découvrez le groupe "Les Thugs" !</h1>
     </div>
     <div class="article">
-        <img src="/TD-accessibilite/Assets/Images/grp_img.jpg" alt="image du groupe" class="img_grp">
-        <h4 class="text-article">Pays d'origine : France</h4>
-        <h4 class="text-article">Membres : 4</h4>
-        <h4 class="text-article">Genre : Punk rock</h4> 
-        <h5 class="text-article">
-            Les Thugs est un groupe de rock français, originaire d'Angers.
-            Il est  d'abord actif entre 1983 et 1999, puis entre 2008
-            et 2009. Auteur de plusieurs albums jusqu'en 1999, certains
-            seront publiés par le label américain de rock alternatif  
-            "Sub Pop".
-        </h5>
+        <div class="row">
+            <div class="col">
+                <img src="/TD-accessibilite/Assets/Images/grp_img.jpg" alt="image du groupe" class="img_grp">
+            </div>
+            <div class="col text-description">
+                <p class="text-article">Pays d'origine : France</p>
+                <p class="text-article">Membres : 4</p>
+                <p class="text-article">Genre : Punk rock</p> 
+                <p class="text-pave">
+                    Les Thugs est un groupe de rock français, originaire d'Angers.
+                    Il est  d'abord actif entre 1983 et 1999, puis entre 2008
+                    et 2009. Auteur de plusieurs albums jusqu'en 1999, certains
+                    seront publiés par le label américain de rock alternatif  
+                    "Sub Pop".
+                </p>
+            </div>
+        </div>
     </div> 
     <div class="text-center">
-        <button type="button" class="btn btn-outline-light">Voir plus</button>
-        <h2 class="title">Albums</h2>
+        <button type="button" class="btn btn-outline-light mt-3">Voir plus</button>
+        <h2 class="title mt-3">Albums</h2>
     </div> 
     <div class="text-center">
-        <img src="/TD-accessibilite/Assets/Images/Radical_Hystery.jpg" alt="Radical Hystery" class="albums">
-        <img src="/TD-accessibilite/Assets/Images/Electric_Trouble.jpg" alt="Electric Trouble" class="albums">
-        <img src="/TD-accessibilite/Assets/Images/Liive_Never_Get_Older.jpg" alt="Liive ! Never Get Older" class="albums">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-6 col-sm-4 mt-2">
+                    <img src="/TD-accessibilite/Assets/Images/Radical_Hystery.jpg" alt="Radical Hystery" class="albums">
+                </div>
+                <div class="col-6 col-sm-4 mt-2">
+                    <img src="/TD-accessibilite/Assets/Images/Electric_Trouble.jpg" alt="Electric Trouble" class="albums">
+                </div>
+                <div class="col-6 col-sm-4 mt-2">
+                    <img src="/TD-accessibilite/Assets/Images/Liive_Never_Get_Older.jpg" alt="Liive ! Never get older" class="albums">
+                </div>
+          
+              <!-- Force next columns to break to new line at md breakpoint and up -->
+                <div class="w-100 d-none d-md-block"></div>
+          
+                <div class="col-6 col-sm-4 mt-2">
+                    <h3 class="album_title">Radical Hystery</h3>
+                </div>
+                <div class="col-6 col-sm-4 mt-2">
+                    <h3 class="album_title">Electric Trouble</h3>
+                </div>
+                <div class="col-6 col-sm-4 mt-2">
+                    <h3 class="album_title">Liive ! Never Get Older</h3>
+                </div>
+            </div>
+        </div>
+    
     </div>
     <div class="text-center">
-        <h5 class="albums_names">Radical Hystery | Electric Trouble | Liive ! Never Get Older</h5>
+        <button type="button" class="btn btn-outline-light mt-3">Voir plus</button>
     </div>
     <div class="text-center">
-        <button type="button" class="btn btn-outline-light">Voir plus</button>
+        <h2 class="title mt-4">Live</h2>
     </div>
     <div class="text-center">
-        <h2 class="title">Live</h2>
-    </div>
-    <div class="text-center">
-        <img src="/TD-accessibilite/Assets/Images/Come_on_People_live.jpg" alt="Come on People" class="live">
-        <h5 class="live_name">Come on People</h5>
-        <h2 class="title">Vidéos</h2>
+        <img src="/TD-accessibilite/Assets/Images/Come_on_People_live.jpg" alt="Come on People" class="live mt-3">
+        <h5 class="live_name mt-2">Come on People</h5>
+        <h2 class="title mt-5">Vidéos</h2>
     </div>
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner ">
           <div class="carousel-item active">
-            <video src="/TD-accessibilite/Assets/Vidéos/Les Thugs As Happy As Possible.mp4" class="d-block w-50 video_1" alt="Clip de As Happy As Possible" controls></video>
+            <video src="/TD-accessibilite/Assets/Vidéos/Les Thugs As Happy As Possible.mp4" class="d-block w-50 videos" alt="Clip de As Happy As Possible" controls></video>
           </div>
           <div class="carousel-item">
-            <video src="/TD-accessibilite/Assets/Vidéos/THUGS - Never Get Older (1986).mp4" class="d-block w-50 video_2" alt="Clip de Never Get Older" controls></video>
+            <video src="/TD-accessibilite/Assets/Vidéos/THUGS - Never Get Older (1986).mp4" class="d-block w-50 videos" alt="Clip de Never Get Older" controls></video>
           </div>
           <div class="carousel-item">
-            <video src="/TD-accessibilite/Assets/Vidéos/LES THUGS Waiting (compressed).mp4" class="d-block w-50 video_3" alt="Clip de Waiting" controls></video>
+            <video src="/TD-accessibilite/Assets/Vidéos/LES THUGS Waiting (OFFICIAL VIDEO) (1).mp4" class="d-block w-50 videos" alt="Clip de Waiting" controls></video>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -86,8 +113,11 @@
         <h3 class="footer-text">Accessibilité</h3>
     </div>
     <div class="text-center">
-        <img src="/TD-accessibilite/Assets/SVG/internet-svgrepo-com (2).svg" alt="Site internet du groupe" class="icon">
+        <a href="https://www.lesthugs.fr/">
+            <img src="/TD-accessibilite/Assets/SVG/internet-svgrepo-com (2).svg"  alt="Site internet du groupe" class="icon">
+        </a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      
 </body>
 </html>
