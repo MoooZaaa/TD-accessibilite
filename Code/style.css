@@ -1,3 +1,6 @@
+body,html {
+    overflow-x: hidden;
+}
 .button {
     border-color: black;
 }
@@ -12,7 +15,7 @@ body {
 }
 
 .text-article {
-    color: white;
+    color: black;
 }
 
 .title {
@@ -27,4 +30,16 @@ body {
 .live {
     width: 100px;
     height: 100px;
+}
+
+.albums_names {
+    color: white;
+}
+
+.live_name {
+    color: white;
+}
+
+.article {
+    background-color: white;
 }
