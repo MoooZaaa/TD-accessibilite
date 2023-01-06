@@ -14,3 +14,17 @@ body {
 .text-article {
     color: white;
 }
+
+.title {
+    color: white;
+}
+
+.albums {
+    width: 100px;
+    height: 100px;
+}
+
+.live {
+    width: 100px;
+    height: 100px;
+}
